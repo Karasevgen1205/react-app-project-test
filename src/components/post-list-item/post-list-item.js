@@ -9,7 +9,7 @@ export default class PostListItem extends Component {
       important: false,
       like: false,
     };
-    this.onImportant = this.onImportant.bind(this); // Или используем другой способ - мы их будем еще применять в следующих проектах
+    this.onImportant = this.onImportant.bind(this);
     this.onLike = this.onLike.bind(this);
   }
 

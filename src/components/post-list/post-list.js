@@ -5,7 +5,6 @@ import "./post-list.css";
 
 const PostList = ({ posts }) => {
   const elements = posts.map((item) => {
-    // Простой способ проверки на объект + содержится ли в нем информация
     if (typeof item === "object" && isEmpty(item)) {
       const { id, ...itemProps } = item;
       return (
